@@ -1,0 +1,16 @@
+assuming simulator doesnt work:
+killall Simulator
+xcrun simctl shutdown all
+xcrun simctl erase all
+
+symbols: https://icons.expo.fyi/Index
+
+send new version to testflight:
+eas build -p ios --profile production
+
+eas submit -p ios --latest --profile production
+
+test email: tester1@test.com
+test password: tester1
+
+useState: https://www.youtube.com/watch?v=V9i3cGD-mts
